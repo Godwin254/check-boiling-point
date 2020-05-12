@@ -1,0 +1,72 @@
+.todo-app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 30%;
+  margin: 10% auto;
+}
+.todo-input{
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid rgba(202, 219, 202, 0.692);
+  border-radius: 3px;
+}
+.save-button{
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  background-color: #282c34;
+  color: white;
+}
+.save-button:hover{
+  padding: 11px;
+  font-size: 16px;
+
+}
+.todo-content{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  text-align: lefthhh;
+  list-style-type: none;
+
+}
+.todo-list{
+  padding: 10px;
+  border-radius: 3px;
+  color: rgb(49, 45, 45);
+  background-color: #d3e2fff5;
+  margin-bottom: 3px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
